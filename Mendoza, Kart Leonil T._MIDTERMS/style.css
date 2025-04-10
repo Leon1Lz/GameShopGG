@@ -1,0 +1,229 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #ffcc00;
+    text-shadow: 2px 2px 10px rgba(255, 204, 0, 0.8);
+}
+
+/* Card Styles */
+.game-card {
+    background: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.5);
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #121212 !important; /* Dark theme */
+    padding: 15px 0;
+}
+
+/* Navbar Brand (Logo/Text) */
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    margin-right: 20px;
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Yellow highlight on hover */
+}
+
+/* Fix Navbar Toggler (Mobile Button) */
+.navbar-toggler {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Change Navbar Toggler Icon (Menu Icon) */
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+/* Product Image Styles */
+.product-img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.product-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.7);
+}
+
+.game-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 700;
+    color: #ffcc00;
+}
+
+.card-text {
+    font-weight: 300;
+    color: #bdbdbd;
+}
+
+/* View Button Styles */
+.btn-primary {
+    background: #ffcc00;
+    border: none;
+    color: #121212;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+    background: #ff9900;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(255, 153, 0, 0.8);
+}
+
+/* Buy Button Styles */
+.btn-success {
+    background: #28a745;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-success:hover {
+    background: #218838;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(33, 136, 56, 0.8);
+}
+
+/* Secondary Button (If Needed) */
+.btn-secondary {
+    background: #333;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #555;
+}
+
+/* Add to Cart Button Styles */
+.btn-cart {
+    background: #FFA500; /* Orange color */
+    border: none;
+    color: #121212;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-cart:hover {
+    background: #FF8C00; /* Darker orange on hover */
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(255, 140, 0, 0.8); /* Soft glow effect */
+}
+/* Clear Cart Button Styles */
+#clear-cart-btn {
+    background-color: #dc3545; /* Red color for "Clear Cart" button */
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#clear-cart-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly grow the button */
+    box-shadow: 0px 0px 15px rgba(220, 53, 69, 0.7); /* Soft glow effect */
+}
+
+#clear-cart-btn:active {
+    background-color: #bd2130; /* Darker red when clicked */
+    transform: scale(0.98); /* Shrink the button on click */
+    box-shadow: 0px 0px 25px rgba(220, 53, 69, 0.9); /* Stronger glow when clicked */
+}
+
+/* Image Effects */
+.img-fluid {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Product Section */
+.row.mt-5 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}   
+
+/* Add Glow Effect to Titles */
+h2 {
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 2px 2px 10px rgba(255, 204, 0, 0.8);
+}
+
+/* Hide all game sections by default */
+.game-section {
+    display: none; /* Hide all sections initially */
+}
+
+/* Show only the selected game section */
+.game-section.show {
+    display: block !important; /* Show the selected game */
+}
+/* Social Media Icons */
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.social-icon-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon:hover .social-icon-img {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.7); /* Hover glow effect */
+}

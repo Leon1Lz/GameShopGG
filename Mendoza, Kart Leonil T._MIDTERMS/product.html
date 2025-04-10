@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Leonilio's</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> <!-- Menu icon -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="gameproducts.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <a href="gameproducts.html" class="btn btn-secondary mb-3">Back</a>
+
+        <div class="game-section" id="1">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/BMW.jpg" class="product-img" alt="Black Myth: Wukong">
+                </div>
+            <div class="col-md-6">
+                <h2 id="productName">Black Myth: Wukong</h2>
+                <p id="productDescription">Black Myth: Wukong is a 2024 action role-playing game based on the Chinese novel Journey to the West. Players control the Destined One, a monkey wielding a versatile staff, as he embarks on a journey to retrieve six relics linked to Sun Wukong's six senses. The game features combat that mixes light and heavy attacks, transformations into powerful creatures, and resource management involving focus, stamina, and mana. The protagonist also uses spirits and vessels for added abilities.</p>
+                <p><strong>Price:</strong> $59.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Black Myth: Wukong', 59.99)">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+        
+    <div class="game-section" id="2">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="Images\ED.jpg" class="product-img" alt="Elden Ring">
+            </div>
+            <div class="col-md-6">
+                <h2>Elden Ring</h2>
+                <p>Elden Ring is an action role-playing game set in the vast open world of the Lands Between. Players control a customizable character known as the Tarnished, who embarks on a quest to repair the shattered Elden Ring and become the Elden Lord. The game features deep combat mechanics, offering a mix of weaponry, magic, and abilities, along with challenging bosses and enemies. The world is expansive, filled with secrets, dynamic weather, and a rich, lore-driven narrative created with input from George R. R. Martin. Elden Ring received widespread acclaim for its open-world design, immersive storytelling, and rewarding gameplay, winning multiple Game of the Year awards.</p>
+                <p><strong>Price:</strong> $49.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Elden Ring', 49.99)">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="game-section" id="3">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="Images\AC.png" class="product-img" alt="Assassin's Creed: Valhalla">
+            </div>
+            <div class="col-md-6">
+                <h2>Assassin's Creed: Valhalla</h2>
+                <p>Assassin's Creed: Valhalla is an action role-playing game set during the Viking invasion of England. Players control Eivor, a Viking raider, as they lead their clan to settle in England while navigating the conflict between the Assassins and Templars. The game features expansive open-world exploration, with a focus on combat, raids, and building a settlement. Eivor can choose between two combat styles, wielding a variety of weapons, and engage in both stealth and brutal combat. Valhalla also includes a rich narrative influenced by Norse mythology, with decisions that impact the story and the world around the player.
+                </p>
+                <p><strong>Price:</strong> $39.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Assassins Creed: Valhalla', 39.99)">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="game-section" id="4">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="Images\TK.jpg" class="product-img" alt="Tekken 8">
+            </div>
+            <div class="col-md-6">
+                <h2>Tekken 8</h2>
+                <p>Tekken 8 is a fighting game and the latest installment in the long-running Tekken series, developed and published by Bandai Namco Entertainment. The game continues the story of the Mishima family feud, with players taking control of various iconic characters, each with their own unique fighting styles and moves. Tekken 8 introduces new mechanics, including updated graphics and a more dynamic combat system, emphasizing fast-paced action and strategic moves. The game features both single-player modes and multiplayer options, including online battles. It builds on the series' legacy, delivering intense, visually stunning fights and a compelling continuation of the characters' stories.</p>
+                <p><strong>Price:</strong> $59.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Tekken 8', 59.99)">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+     
+    <div class="game-section" id="5">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="Images\GTA.png" class="product-img" alt="GTA V">
+            </div>
+            <div class="col-md-6">
+                <h2>Grand Theft Auto V</h2>
+                <p>Grand Theft Auto V is an open-world action-adventure game developed by Rockstar Games. Players control three protagonists—Michael, Trevor, and Franklin—each with unique abilities, as they engage in a life of crime, heists, and exploration in the fictional city of Los Santos. The game offers a vast, dynamic world with a detailed city, countryside, and a range of activities, from driving and shooting to sports and side missions. The narrative focuses on the tension between the characters’ personal lives and their criminal endeavors, with various storylines intertwining. Grand Theft Auto V also features an online multiplayer mode, GTA Online, where players can create characters, complete missions, and compete in various activities.</p>
+                <p><strong>Price:</strong> $29.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('GTA V', 29.99)">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+     
+    <div class="game-section" id="6">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="Images/SM.jpg" class="product-img" alt="Marvels Spider-Man 2">
+            </div>
+            <div class="col-md-6">
+                <h2>Marvel's Spider-Man 2</h2>
+                <p>Marvel's Spider-Man 2 is an action-adventure game developed by Insomniac Games, continuing the story of Peter Parker and Miles Morales as they protect New York City. Players can switch between Peter and Miles, each with unique abilities, as they battle new villains like Venom and Kraven the Hunter. The game features improved web-swinging mechanics, a larger open world, and more dynamic combat, allowing for seamless action between characters. As the two Spider-Men face increasingly dangerous threats, the story explores themes of responsibility and power. Marvel's Spider-Man 2 also includes expanded side missions and collectibles, enriching the open-world experience.</p>
+                <p><strong>Price:</strong> $69.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Marvels Spider-Man 2', 69.99)">Add to Cart</a> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="game-section" id="7">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="Images\GOW.jpg" class="product-img" alt="God of War: Ragnarok">
+            </div>
+            <div class="col-md-6">
+                <h2>God of War: Ragnarok</h2>
+                <p>God of War: Ragnarok is an action-adventure game developed by Santa Monica Studio, continuing the journey of Kratos and his son Atreus in the world of Norse mythology. The game follows the father-son duo as they navigate the impending Ragnarök, the prophesied end of the world, and face gods, monsters, and their own destinies. Players control Kratos in a brutal combat system, using weapons like the Leviathan Axe and Blades of Chaos, while Atreus provides support with his unique abilities. The game features a vast, interconnected world filled with epic storylines, puzzles, and exploration. God of War: Ragnarok is celebrated for its emotional depth, stunning visuals, and refined gameplay mechanics, concluding the Norse saga of Kratos.
+                </p>
+                <p><strong>Price:</strong> $59.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('God of War: Ragnarok', 59.99)">Add to Cart</a> 
+            </div>
+        </div>
+    </div>
+
+    <div class="game-section" id="8">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="Images\RD.jpg" class="product-img" alt="Red Dead Redemption 2">
+            </div>
+            <div class="col-md-6">
+                <h2>Red Dead Redemption 2</h2>
+                <p>Red Dead Redemption 2 is an open-world action-adventure game developed by Rockstar Games, set in the late 1800s during the decline of the American frontier. Players control Arthur Morgan, a member of the Van der Linde gang, as he navigates a world filled with moral choices, intense shootouts, and moments of introspection. The game offers a detailed and immersive world, with vast landscapes, towns, wildlife, and side activities like hunting and fishing. The story explores themes of loyalty, betrayal, and the inevitability of change, as Arthur and the gang struggle to survive in a rapidly evolving world. Red Dead Redemption 2 is praised for its storytelling, open-world design, and deep character development, delivering a cinematic experience with incredible attention to detail.</p>
+                <p><strong>Price:</strong> $39.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Red Dead Redemption 2', 39.99)">Add to Cart</a> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="game-section" id="9">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="Images\LS.jpg" class="product-img" alt="The Last of Us Part II">
+            </div>
+            <div class="col-md-6">
+                <h2>The Last of Us Part II</h2>
+                <p>The Last of Us Part II is an action-adventure game developed by Naughty Dog, set in a post-apocalyptic world where humanity struggles to survive after a fungal infection devastates civilization. Players control Ellie, a young woman seeking revenge for the death of someone she loved, while also navigating the moral complexities of her journey. The game features intense combat, stealth mechanics, and a rich narrative that explores themes of grief, revenge, and the impact of violence. It introduces a new character, Abby, whose perspective also plays a key role in the story, offering players a deeper understanding of the conflict. The Last of Us Part II is widely acclaimed for its emotional depth, detailed environments, and groundbreaking performance capture, though it also sparked significant discussion due to its story choices.</p>
+                <p><strong>Price:</strong> $49.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('The Last of Us Part II', 49.99)">Add to Cart</a> 
+            </div>
+        </div>
+    </div>
+
+    <div class="game-section" id="10">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="Images\RE.jpg" class="product-img" alt="Resident Evil 4 Remake">
+            </div>
+            <div class="col-md-6">
+                <h2>Resident Evil 4 Remake</h2>
+                <p>Resident Evil 4 Remake is a survival horror game developed by Capcom, remaking the 2005 classic with modernized gameplay and enhanced graphics. Players control Leon S. Kennedy, a U.S. government agent, tasked with rescuing the president’s daughter, Ashley Graham, from a mysterious cult in rural Spain. The game features a revamped combat system, including over-the-shoulder shooting, strategic use of resources, and improved AI for enemies. Along with intense action and puzzle-solving, it maintains the tense atmosphere and terrifying creatures that made the original so memorable. Resident Evil 4 Remake is praised for its updated visuals, atmospheric design, and the balance of survival horror and action, making it accessible to both longtime fans and newcomers.</p>
+                <p><strong>Price:</strong> $59.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Resident Evil 4 Remake', 59.99)">Add to Cart</a> 
+            </div>
+        </div>
+    </div>
+
+    <div class="game-section" id="11">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="Images\CP.jpg" class="product-img" alt="Cyberpunk 2077">
+            </div>
+            <div class="col-md-6">
+                <h2>Cyberpunk 2077</h2>
+                <p>Cyberpunk 2077 is an open-world action role-playing game developed by CD Projekt Red, set in the dystopian future of Night City, a sprawling metropolis filled with crime, corruption, and cybernetic enhancements. Players control V, a customizable protagonist, as they navigate the city’s underworld while searching for a way to live with a digital ghost of Johnny Silverhand, a rebellious rocker-turned-mercenary. The game features deep narrative choices, immersive side quests, and a dynamic world that reacts to player decisions. It combines first-person shooting, stealth, hacking, and dialogue-based interactions, allowing for various playstyles. Despite its rocky launch, Cyberpunk 2077 has been praised for its story, world-building, and character development, with frequent updates improving the overall experience.</p>
+                <p><strong>Price:</strong> $49.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Cyberpunk 2077I', 49.99)">Add to Cart</a> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="game-section" id="12">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="Images\HW.jpg" class="product-img" alt="Horizon Forbidden West">
+            </div>
+            <div class="col-md-6">
+                <h2>Horizon Forbidden West</h2>
+                <p>Horizon Forbidden West is an open-world action role-playing game developed by Guerrilla Games, set in a post-apocalyptic future where robotic creatures dominate the Earth. Players control Aloy, a skilled hunter and archer, as she ventures into the western United States to uncover the secrets behind a mysterious, deadly threat. The game features stunning visuals, fluid combat, and a rich storyline filled with exploration, puzzle-solving, and battle tactics against both mechanical and human enemies. It expands on its predecessor Horizon Zero Dawn by introducing new regions, more diverse machine enemies, and an upgraded skill tree for enhanced gameplay. Horizon Forbidden West has been praised for its expansive world design, engaging combat, and deep narrative, cementing Aloy as one of gaming's most iconic protagonists.</p>
+                <p><strong>Price:</strong> $59.99</p>
+                <a href="#" class="btn btn-success">Buy</a>
+                <a href="#" class="btn btn-cart" onclick="addToCart('Horizon Forbidden West', 59.99)">Add to Cart</a> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Include cart.js script for functionality -->
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+
+
+    <script>
+        // Get the 'game' parameter from the URL
+        const params = new URLSearchParams(window.location.search);
+        const selectedGame = params.get('game');
+    
+        // Hide all game sections initially
+        document.querySelectorAll('.game-section').forEach(section => {
+            section.style.display = 'none'; // Hide all sections
+        });
+    
+        // Show the selected game section based on the 'game' parameter
+        if (selectedGame) {
+            const gameToShow = document.getElementById(selectedGame);
+            if (gameToShow) {
+                gameToShow.style.display = 'block'; // Show only the selected game
+            } else {
+                document.body.innerHTML += `<div class="container text-white mt-5"><h3>Game not found.</h3></div>`;
+            }
+        }
+        
+    </script>
+</body>
+</html>
